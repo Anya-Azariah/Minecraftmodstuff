@@ -1,6 +1,7 @@
 package net.anya.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.anya.tutorialmod.item.ModCreativeModeTabs;
 import net.anya.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,7 +32,11 @@ public class TutorialMod
     public TutorialMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -55,7 +60,9 @@ public class TutorialMod
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
         }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
