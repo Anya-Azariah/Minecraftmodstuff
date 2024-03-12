@@ -1,6 +1,7 @@
 package net.anya.tutorialmod.item;
 
 import net.anya.tutorialmod.TutorialMod;
+import net.anya.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
@@ -22,6 +23,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(Items.DIAMOND);
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+
                     })
                     .build());
 }
