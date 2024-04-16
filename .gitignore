@@ -12,7 +12,13 @@ out
 *.iws
 *.iml
 .idea
-
+CREDITS.txt
+LICENSE.txt
+README.txt
+changelog.txt
+src/generated/*
+src/test/*
+*.DS_Store
 # gradle
 build
 .gradle

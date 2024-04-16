@@ -30,7 +30,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
-
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 }
