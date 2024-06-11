@@ -17,6 +17,9 @@ LICENSE.txt
 README.txt
 changelog.txt
 src/generated/*
+*.log
+*.gz
+run-data/*
 src/test/*
 *.DS_Store
 # gradle
