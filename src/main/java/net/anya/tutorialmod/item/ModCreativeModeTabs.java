@@ -42,6 +42,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+                        pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                     })
                     .build());
 }
