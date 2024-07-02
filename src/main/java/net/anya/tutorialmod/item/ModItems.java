@@ -3,6 +3,7 @@ package net.anya.tutorialmod.item;
 import net.anya.tutorialmod.TutorialMod;
 import net.anya.tutorialmod.item.custom.FuelItem;
 import net.anya.tutorialmod.item.custom.MetalDetectorItem;
+import net.anya.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -52,7 +53,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
 
     public static final RegistryObject <Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject <Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
