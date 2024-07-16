@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.anya.tutorialmod.block.ModBlocks;
 import net.anya.tutorialmod.item.ModCreativeModeTabs;
 import net.anya.tutorialmod.item.ModItems;
+import net.anya.tutorialmod.loot.ModLootModifiers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -39,6 +40,8 @@ public class TutorialMod
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
