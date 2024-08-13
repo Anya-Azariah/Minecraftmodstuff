@@ -3,6 +3,7 @@ package net.anya.tutorialmod.datagen;
 import net.anya.tutorialmod.TutorialMod;
 import net.anya.tutorialmod.item.ModItems;
 import net.anya.tutorialmod.loot.AddItemModifier;
+import net.anya.tutorialmod.loot.AddSusSandItemModifier;
 import net.anya.tutorialmod.util.ModTags;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -31,6 +32,10 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
         add("metal_detector_from_jungle_temples", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build()
+        },ModItems.METAL_DETECTOR.get()));
+
+        add("metal_detector_from_suspicious_sand", new AddSusSandItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build()
         },ModItems.METAL_DETECTOR.get()));
     }
 }
