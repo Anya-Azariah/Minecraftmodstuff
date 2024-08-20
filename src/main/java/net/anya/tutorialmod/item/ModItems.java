@@ -1,6 +1,7 @@
 package net.anya.tutorialmod.item;
 
 import net.anya.tutorialmod.TutorialMod;
+import net.anya.tutorialmod.block.ModBlocks;
 import net.anya.tutorialmod.item.custom.FuelItem;
 import net.anya.tutorialmod.item.custom.MetalDetectorItem;
 import net.anya.tutorialmod.item.custom.ModArmorItem;
@@ -63,5 +64,9 @@ public class ModItems {
 
     public static final RegistryObject <Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject <Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
+
 
 }

@@ -3,6 +3,7 @@ package net.anya.tutorialmod.block;
 import com.mojang.blaze3d.shaders.Uniform;
 import net.anya.tutorialmod.TutorialMod;
 import net.anya.tutorialmod.block.custom.SoundBlock;
+import net.anya.tutorialmod.block.custom.StrawberryCropBlock;
 import net.anya.tutorialmod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -79,4 +80,7 @@ public class ModBlocks {
 
     public static final RegistryObject <Block> SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             ()-> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON));
+
+    public static final RegistryObject <Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            ()-> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 }
