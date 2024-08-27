@@ -1,34 +1,34 @@
-[19Aug2024 18:07:47.705] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 8, --assetsDir, /Users/Anya/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 48.1.0, --fml.mcVersion, 1.20.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230921.100330, --mod, tutorialmod, --all, --output, /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/generated/resources, --existing, /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/main/resources]
-[19Aug2024 18:07:47.707] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 18.0.1.1+2-6
-[19Aug2024 18:07:47.709] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.1 starting: java version 18.0.1.1 by Oracle Corporation; OS Mac OS X arch aarch64 version 12.2.1
-[19Aug2024 18:07:47.762] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[19Aug2024 18:07:47.791] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/Anya/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=UNKNOWN
-[19Aug2024 18:07:47.979] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/Anya/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.2-48.1.0/7a8d252b70bac3cde4ec0e82bd816fe0212551d/fmlcore-1.20.2-48.1.0.jar is missing mods.toml file
-[19Aug2024 18:07:47.979] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/Anya/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.2-48.1.0/d034c6f69f1f1cf324bdd7bbc66896e67990bbef/javafmllanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[19Aug2024 18:07:47.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/Anya/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.2-48.1.0/ac35e86aee5633ea200ae1607b4ca48b24cd845/lowcodelanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[19Aug2024 18:07:47.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/Anya/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.2-48.1.0/7ddb9ee7a72eb906db86ca9490f35be1789c2813/mclanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[19Aug2024 18:07:48.025] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[19Aug2024 18:07:48.675] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, /Users/Anya/.gradle/caches/forge_gradle/assets, --assetIndex, 8, --mod, tutorialmod, --all, --output, /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/generated/resources, --existing, /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/main/resources]
-[19Aug2024 18:07:51.365] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 48.1.0, for MC 1.20.2 with MCP 20230921.100330
-[19Aug2024 18:07:51.368] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v48.1.0 Initialized
-[19Aug2024 18:07:51.703] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [tutorialmod]
-[19Aug2024 18:07:51.733] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/Anya/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
-[19Aug2024 18:07:51.733] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/Anya/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
-[19Aug2024 18:07:51.743] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/main/resources, ignoring
-[19Aug2024 18:07:51.750] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/main/resources, ignoring
-[19Aug2024 18:07:51.847] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[19Aug2024 18:07:51.894] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 45 ms
-[19Aug2024 18:07:51.894] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[19Aug2024 18:07:51.916] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 21 ms
-[19Aug2024 18:07:51.916] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: tutorialmod
-[19Aug2024 18:07:51.995] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: tutorialmod finished after 78 ms
-[19Aug2024 18:07:51.995] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: tutorialmod
-[19Aug2024 18:07:52.006] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: tutorialmod finished after 11 ms
-[19Aug2024 18:07:52.006] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id tutorialmod
-[19Aug2024 18:07:52.014] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id tutorialmod finished after 7 ms
-[19Aug2024 18:07:52.014] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id tutorialmod
-[19Aug2024 18:07:52.015] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id tutorialmod finished after 1 ms
-[19Aug2024 18:07:52.016] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : tutorialmod
-[19Aug2024 18:07:52.020] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : tutorialmod finished after 4 ms
-[19Aug2024 18:07:52.020] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 173 ms
-[19Aug2024 18:07:52.026] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 187, old count: 187, new count: 188, removed stale: 0, written: 0
+[26Aug2024 18:18:41.809] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 8, --assetsDir, /Users/Anya/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 48.1.0, --fml.mcVersion, 1.20.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230921.100330, --mod, tutorialmod, --all, --output, /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/generated/resources, --existing, /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/main/resources]
+[26Aug2024 18:18:41.811] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 18.0.1.1+2-6
+[26Aug2024 18:18:41.812] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.1 starting: java version 18.0.1.1 by Oracle Corporation; OS Mac OS X arch aarch64 version 12.2.1
+[26Aug2024 18:18:41.866] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[26Aug2024 18:18:41.894] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/Anya/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=UNKNOWN
+[26Aug2024 18:18:42.105] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/Anya/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.2-48.1.0/7a8d252b70bac3cde4ec0e82bd816fe0212551d/fmlcore-1.20.2-48.1.0.jar is missing mods.toml file
+[26Aug2024 18:18:42.106] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/Anya/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.2-48.1.0/d034c6f69f1f1cf324bdd7bbc66896e67990bbef/javafmllanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[26Aug2024 18:18:42.106] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/Anya/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.2-48.1.0/ac35e86aee5633ea200ae1607b4ca48b24cd845/lowcodelanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[26Aug2024 18:18:42.107] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/Anya/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.2-48.1.0/7ddb9ee7a72eb906db86ca9490f35be1789c2813/mclanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[26Aug2024 18:18:42.150] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[26Aug2024 18:18:42.838] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, /Users/Anya/.gradle/caches/forge_gradle/assets, --assetIndex, 8, --mod, tutorialmod, --all, --output, /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/generated/resources, --existing, /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/main/resources]
+[26Aug2024 18:18:46.433] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 48.1.0, for MC 1.20.2 with MCP 20230921.100330
+[26Aug2024 18:18:46.434] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v48.1.0 Initialized
+[26Aug2024 18:18:46.739] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [tutorialmod]
+[26Aug2024 18:18:46.787] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/Anya/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[26Aug2024 18:18:46.787] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/Anya/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.10.08-1.20.2-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[26Aug2024 18:18:46.808] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/main/resources, ignoring
+[26Aug2024 18:18:46.832] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/Anya/Documents/minecraft stuff/Forge-Tutorial-1.20.X/src/main/resources, ignoring
+[26Aug2024 18:18:46.957] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[26Aug2024 18:18:46.996] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 38 ms
+[26Aug2024 18:18:46.997] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[26Aug2024 18:18:47.049] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 52 ms
+[26Aug2024 18:18:47.049] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: tutorialmod
+[26Aug2024 18:18:47.154] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: tutorialmod finished after 104 ms
+[26Aug2024 18:18:47.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: tutorialmod
+[26Aug2024 18:18:47.170] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: tutorialmod finished after 15 ms
+[26Aug2024 18:18:47.171] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id tutorialmod
+[26Aug2024 18:18:47.177] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id tutorialmod finished after 6 ms
+[26Aug2024 18:18:47.177] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id tutorialmod
+[26Aug2024 18:18:47.178] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id tutorialmod finished after 0 ms
+[26Aug2024 18:18:47.178] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : tutorialmod
+[26Aug2024 18:18:47.184] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : tutorialmod finished after 6 ms
+[26Aug2024 18:18:47.184] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 228 ms
+[26Aug2024 18:18:47.193] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 200, old count: 187, new count: 201, removed stale: 0, written: 13
