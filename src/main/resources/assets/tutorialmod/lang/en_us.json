@@ -35,5 +35,6 @@
   "item.tutorialmod.strawberry_seeds": "Strawberry Seeds",
   "item.tutorialmod.corn_seeds": "Corn Seeds",
   "item.tutorialmod.corn": "Corn",
-  "block.tutorialmod.catmint": "Catmint"
+  "block.tutorialmod.catmint": "Catmint",
+  "entity.minecraft.villager.tutorialmod.soundmaster": "Soundmaster"
 }
