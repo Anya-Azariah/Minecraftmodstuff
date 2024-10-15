@@ -36,5 +36,6 @@
   "item.tutorialmod.corn_seeds": "Corn Seeds",
   "item.tutorialmod.corn": "Corn",
   "block.tutorialmod.catmint": "Catmint",
-  "entity.minecraft.villager.tutorialmod.soundmaster": "Soundmaster"
+  "entity.minecraft.villager.tutorialmod.soundmaster": "Soundmaster",
+  "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle"
 }

@@ -1,9 +1,11 @@
 package net.anya.tutorialmod.item.custom;
 
+import net.anya.tutorialmod.sound.ModSounds;
 import net.anya.tutorialmod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -35,6 +37,8 @@ public class MetalDetectorItem extends Item {
                 if(isValuableBlock(state)){
                    outputValuableCoordinates(positionClicked.below(i),player, state.getBlock());
                    foundBlock = true;
+                   pContext.getLevel().playSeededSound(null, positionClicked.getX(), positionClicked.getY(),
+                           positionClicked.getZ(), ModSounds.METAL_DETECTOR_FOUND_ORE.get(), SoundSource.BLOCKS, 1f, 1f, 0);
                    break;
                 }
             }

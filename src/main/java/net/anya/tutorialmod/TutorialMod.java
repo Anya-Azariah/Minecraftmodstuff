@@ -5,6 +5,7 @@ import net.anya.tutorialmod.block.ModBlocks;
 import net.anya.tutorialmod.item.ModCreativeModeTabs;
 import net.anya.tutorialmod.item.ModItems;
 import net.anya.tutorialmod.loot.ModLootModifiers;
+import net.anya.tutorialmod.sound.ModSounds;
 import net.anya.tutorialmod.villager.ModVillagers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -47,6 +48,8 @@ public class TutorialMod
         ModLootModifiers.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
