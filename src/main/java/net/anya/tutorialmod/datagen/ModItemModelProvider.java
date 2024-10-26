@@ -70,6 +70,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
         simpleBlockItemBlockTexture(ModBlocks.CATMINT);
+        simpleItem(ModItems.BAR_BRAWL_MUSIC_DISC);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

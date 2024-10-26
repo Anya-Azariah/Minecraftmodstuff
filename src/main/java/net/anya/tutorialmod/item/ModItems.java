@@ -5,6 +5,7 @@ import net.anya.tutorialmod.block.ModBlocks;
 import net.anya.tutorialmod.item.custom.FuelItem;
 import net.anya.tutorialmod.item.custom.MetalDetectorItem;
 import net.anya.tutorialmod.item.custom.ModArmorItem;
+import net.anya.tutorialmod.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -73,5 +74,8 @@ public class ModItems {
 
     public static final RegistryObject <Item> CORN = ITEMS.register("corn",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject <Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+            () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));
 
 }
