@@ -2,12 +2,15 @@ package net.anya.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.anya.tutorialmod.block.ModBlocks;
+import net.anya.tutorialmod.entity.ModEntities;
+import net.anya.tutorialmod.entity.client.RhinoRenderer;
 import net.anya.tutorialmod.item.ModCreativeModeTabs;
 import net.anya.tutorialmod.item.ModItems;
 import net.anya.tutorialmod.loot.ModLootModifiers;
 import net.anya.tutorialmod.sound.ModSounds;
 import net.anya.tutorialmod.villager.ModVillagers;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerBlock;
@@ -50,6 +53,8 @@ public class TutorialMod
         ModVillagers.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
@@ -95,6 +100,7 @@ public class TutorialMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
