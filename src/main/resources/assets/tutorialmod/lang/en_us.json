@@ -39,5 +39,6 @@
   "entity.minecraft.villager.tutorialmod.soundmaster": "Soundmaster",
   "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle",
   "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disk",
-  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl - CC0"
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl - CC0",
+  "item.tutorialmod.rhino_spawn_egg": "Rhino Spawn Egg"
 }
